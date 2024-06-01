@@ -1,18 +1,26 @@
 {
   "name": "com.iron-mountain.state-machines",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "displayName": "State Machines",
-  "description": "Base classes to create custom state machines.",
-  "unity": "2019.1",
-  "keywords": [
-    "tools"
-  ],
   "author": "Chris Monteferrante <ludachrismonte@gmail.com>",
+  "unity": "2019.1",
   "type": "tool",
+  "license": "ISC",
+  "homepage": "https://github.com/Iron-Mountain-Software/state-machines#readme",
+  "bugs": {
+    "type": "git",
+    "url": "https://github.com/Iron-Mountain-Software/state-machines/issues"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Iron-Mountain-Software/state-machines.git"
   },
+  "description": "Base classes to create custom state machines.",
+  "useCases": [],
+  "directions": null,
+  "keywords": [
+    "tools"
+  ],
   "sources": [
     {
       "type": "git",
@@ -27,9 +35,5 @@
       "url": "https://iron-mountain.itch.io/state-machines"
     }
   ],
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Iron-Mountain-Software/state-machines/issues"
-  },
-  "homepage": "https://github.com/Iron-Mountain-Software/state-machines#readme"
+  "dependencies": {}
 }

@@ -1,7 +1,11 @@
 # State Machines
+*Version: 1.0.2*
+## Description: 
 Base classes to create custom state machines.
-
-## Key Scripts & Components:
+## Package Mirrors: 
+[<img src='https://img.itch.zone/aW1nLzEzNzQ2ODg3LnBuZw==/original/npRUfq.png'>](https://github.com/Iron-Mountain-Software/state-machines.git)[<img src='https://img.itch.zone/aW1nLzEzNzQ2ODkyLnBuZw==/original/Fq0ORM.png'>](https://www.npmjs.com/package/com.iron-mountain.state-machines)[<img src='https://img.itch.zone/aW1nLzEzNzQ2ODk4LnBuZw==/original/Rv4m96.png'>](https://iron-mountain.itch.io/state-machines)
+---
+## Key Scripts & Components: 
 1. public interface **IState**
    * Methods: 
       * public abstract Boolean ***CanTransitionTo***(IState state)
@@ -20,12 +24,12 @@ Base classes to create custom state machines.
       * public virtual Boolean ***CanTransitionTo***(IState state)
       * public abstract void ***Enter***()
       * public abstract void ***Exit***()
-1. public abstract class **State** : Object
+1. public abstract class **State**
    * Methods: 
       * public virtual Boolean ***CanTransitionTo***(IState state)
       * public abstract void ***Enter***()
       * public abstract void ***Exit***()
-1. public class **StateMachine`1** : Object
+1. public class **StateMachine`1**
    * Actions: 
       * public event Action ***OnStateChange*** 
    * Properties: 
