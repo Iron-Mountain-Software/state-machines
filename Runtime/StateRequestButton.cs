@@ -7,17 +7,14 @@ namespace IronMountain.StateMachines
     public abstract class StateRequestButton : MonoBehaviour
     {
         [SerializeField] private Button button;
-
-        protected virtual void Awake()
-        {
-            if (!button) button = GetComponent<Button>();
-        }
-
+        
         protected virtual void OnValidate()
         {
             if (!button) button = GetComponent<Button>();
         }
 
+        protected virtual void Awake() => OnValidate();
+        
         protected virtual void OnEnable()
         {
             if (button) button.onClick.AddListener(OnClick);
